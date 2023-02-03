@@ -22,7 +22,7 @@ const myBarcode = () => {
     return <Text>Requesting for camera permission</Text>;
   }
   if (hasPermission === false) {
-    return <Text>No access to camera</Text>;
+    return <Text>No access your camera</Text>;
   }
 
   return (
